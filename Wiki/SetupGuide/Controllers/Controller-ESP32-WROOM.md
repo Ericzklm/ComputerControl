@@ -11,9 +11,9 @@ The USB port plugs into the computer which is how the program will control it. A
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
-1. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
-2. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
-3. [A computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+1. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+2. A [computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+3. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
 4. An ESP32-WROOM-32 microcontroller.
 5. A micro-USB or USB-C to USB-A cable or dongle. Needs to connect your ESP32 to your computer. ESP32 can have either micro-USB or USB-C, so find out what you have before buying the cable for it.
 

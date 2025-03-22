@@ -11,9 +11,9 @@ This tutorial will use solderless hammer headers to connect the UART to the Pro 
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
-1. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
-2. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
-3. [A computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+1. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+2. A [computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+3. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
 4. A Pro Micro microcontroller.
 5. USB A to mini USB cable
 6. USB to Serial TTL (UART)

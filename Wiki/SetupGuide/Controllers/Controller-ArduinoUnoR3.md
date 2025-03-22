@@ -13,9 +13,9 @@ The Arduino Uno R3 is the legacy setup that we support only because we (barely*)
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
-1. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
-2. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
-3. [A computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+1. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+2. A [computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+3. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
 4. An [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3).
 5. A USB-A to USB-B cable.
 6. USB to Serial TTL (UART)
