@@ -11,9 +11,9 @@ Our current sys-botbase support only covers the wired pro controller. So it will
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
-1. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
-2. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
-3. [A computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+1. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+2. A [computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+3. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
 
 **Estimated Total Cost (USD):** (not including computer and Nintendo Switch)
 - **Single Setup:** $10 - $20 (for the capture card)
