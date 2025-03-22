@@ -9,9 +9,9 @@ This version of the wired controller setup uses the Arduino Leonardo. It is the 
 ## Hardware Setup:
 
 **Required Hardware (Full List):**
-1. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
-2. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
-3. [A computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+1. A regular [Nintendo Switch](../README.md#video-capture-card-the-computers-eyes) and its accessories (dock, power cable, HDMI cable). (You cannot use a Switch Lite.)
+2. A [computer](../README.md#the-computer-the-player) running x64 Windows. (or another OS if you are able to set it up.)
+3. A [video capture card](../README.md#video-capture-card-the-computers-eyes).
 4. An [Arduino Leonardo](https://docs.arduino.cc/hardware/leonardo).
 5. USB A to micro USB cable.
 6. USB to Serial TTL (UART)
