@@ -104,8 +104,11 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 </td></tr></table>
 
 6. Under `Flash Address`, set the text box to 0x0 (instead of the default 0x1000)
-7. Click `Choose File`: Select the firmware file, then click `Open` to choose the file.
-8. Click `Program`.
+7. Click `Choose File`: Select the firmware file (will be named something like: `PABotBase-ESP32-2025032100.bin`), then click `Open` to choose the file.
+
+<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+
+9. Click `Program`.
 <table><tr><td>
 <img src="../Images/esptool-js-program.png">
 </td></tr></table>
