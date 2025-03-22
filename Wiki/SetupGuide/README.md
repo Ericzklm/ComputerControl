@@ -89,7 +89,7 @@ In the past, the only controller we supported was the wired pro controller. But 
 | Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference. | Very good for remote access. | Not recommended for remote access. |
 | Recommended for all users including beginners. | Recommended for experienced users or electrical engineering majors. | Recommended for regular CFW users who want to try CC programs with minimal investment. |
 
-*Please consult the [program list](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md) for the full compatibility table.
+*Please consult the [program list](/Wiki/Programs/README.md) for the full compatibility table.
 
 **If you are new to automation and are interested in trying it out, we strongly recommend the wireless ESP32 setup.**
 
@@ -143,7 +143,7 @@ The difference between the mini grabber vs. solderless pin option is that the mi
 
 Now that you are done with your setup, go run some programs!
 
-[Computer Control Program List](https://github.com/PokemonAutomation/ComputerControl/blob/master/Wiki/Programs/README.md)
+[Computer Control Program List](/Wiki/Programs/README.md)
 
 Here are some misc. tips/tricks, and other hidden features of the CC programs!
 
