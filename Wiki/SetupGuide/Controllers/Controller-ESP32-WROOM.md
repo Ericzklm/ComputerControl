@@ -90,40 +90,29 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 
 **Flash the ESP32:**
 
-1. Open this website in Chrome or Edge: https://espressif.github.io/esptool-js/
-2. Under `Program`, you may keep the `Baudrate` at the default of 921600.
-3. Click `Connect`.
+1. Download the Espressif flash utility: https://dl.espressif.com/public/flash_download_tool.zip
+2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
+3. When you see the following menu, select "ESP32" and "Desktop. Then hit OK.
 
-<table><tr><td>
-<img src="../Images/esptool-js-connect1.png">
-</td></tr></table>
+<img src="../Images/ControllerSetup-ESP32-WROOM-Flash-0.png">
 
-5. Select your ESP32 device in the pop-up. Click `Connect`.
-<table><tr><td>
-<img src="../Images/esptool-js-connect2.png">
-</td></tr></table>
+4. You will then be prompted with this complicated window. Fill everything as follows:
+   - Check the box for the first entry.
+   - For the first entry, click on the `...` and browse for `PABotBase-ESP32-2025032100.bin` in the serial programs download folder. (version number may vary)
+   - The right-most box should be a zero.
+   - At the bottom right corner, select the COM port of your ESP32.
+   - Change "BAUD" to 460800.
 
-6. Under `Flash Address`, set the text box to 0x0 (instead of the default 0x1000)
-7. Click `Choose File`: Select the firmware file (will be named something like: `PABotBase-ESP32-2025032100.bin`), then click `Open` to choose the file.
+<img src="../Images/ControllerSetup-ESP32-WROOM-Flash-1.png">
 
-<img src="../Images/GeneralSetup-CCFolder.png" height="400">
+5. Click Start and it will flash the PABotBase firmware to your ESP32.
 
-9. Click `Program`.
-<table><tr><td>
-<img src="../Images/esptool-js-program.png">
-</td></tr></table>
+<img src="../Images/ControllerSetup-ESP32-WROOM-Flash-2.png">
 
-9. Wait for the program to flash. If successful, you should see the following in the console:
-```
-Hash of data verified.
-Leaving...
-Hard resetting via RTS pin...
-```
-<table><tr><td>
-<img src="../Images/esptool-js-console.png">
-</td></tr></table>
+6. Reboot your ESP32. You can do this either by:
+   - Unplugging and re-plugging your ESP32.
+   - Pressing either the `EN` or `RESET` button on the ESP32.
 
-If instead, you get the error: `Error: Invalid head of packet (0x80): Possible serial noise or corruption.`. Then refresh the page, restart at step 2, but try changing the baudrate to 115200.
 
 ### Step 3: Navigate to the Grip Menu
 
