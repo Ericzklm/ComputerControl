@@ -147,7 +147,7 @@ If you are a sysmodule developer and are interested in fixing sys-botbase, pleas
 
 ### Multi-Switch programs don't work.
 
-Multi-Switch programs generally involve the two Switches using local communication to talk to each other. ldn-mitm will block local connections which means the two Switches cannot connect unless both are running ldn-mitm. Turning off ldn-mitm will to allow the local communication mode will kill the network connection to the computer.
+Multi-Switch programs generally involve the two Switches using local communication to talk to each other. ldn-mitm will block local connections which means the two Switches cannot connect unless both are running ldn-mitm. Turning off ldn-mitm to allow the local communication mode will kill the network connection to the computer.
 
 There is no general solution to this. For some programs, you may be able to work-around this by having both Switches go online. But this is not possible for programs that require resetting the game.
 
