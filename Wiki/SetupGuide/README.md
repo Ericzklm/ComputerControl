@@ -138,6 +138,7 @@ The difference between the mini grabber vs. solderless pin option is that the mi
 **Custom Firmware:**
  - [sys-botbase](Controllers/Controller-sys-botbase.md)
 
+Note that usb-botbase is not supported because it clashes with the capture card which needs the same USB port.
 
 ## Step 4: Finishing Up
 
