@@ -92,7 +92,7 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 
 1. Download the Espressif flash utility: https://dl.espressif.com/public/flash_download_tool.zip
 2. Unzip, then run `flash_download_tool_3.9.7.exe` (version number may vary)
-3. When you see the following menu, select "ESP32" and "Desktop. Then hit OK.
+3. When you see the following menu, select "ESP32" and "Develop". Then hit OK.
 
 <img src="../Images/ControllerSetup-ESP32-WROOM-Flash-0.png">
 
