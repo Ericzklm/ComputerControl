@@ -103,7 +103,7 @@ The root folder of the SerialPrograms package should have a set of .hex files fo
 <img src="../Images/ControllerSetup-ProMicro-Flash-0.png" height="600">
 
 5. Plug the Pro Micro into your computer.
-6. Press the reset button.
+6. Short the RST and GND pins.
 
 <img src="../Images/ControllerSetup-ProMicro-Flash-1.jpg" height="400">
 
