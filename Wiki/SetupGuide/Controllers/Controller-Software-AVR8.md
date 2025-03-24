@@ -55,7 +55,7 @@ Continue on to [Finishing Up](../README.md#step-4-finishing-up)!
 
 ## Troubleshooting:
 
-### Trouble shooting serial connections:
+### Troubleshooting serial connections:
 
 Step 1: Plug your device into the Switch without connecting the UART to the computer.
 | Error | Solution |
