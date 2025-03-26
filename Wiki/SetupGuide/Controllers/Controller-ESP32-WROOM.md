@@ -25,7 +25,7 @@ The USB port plugs into the computer which is how the program will control it. A
 
 <img src="../Images/ControllerSetup-ESP32-WROOM-Setup-Annotated-2.jpg" width="800">
 
-**Important:** There are many variants of the ESP32 mircocontroller. The ESP32-WROOM is the only one that we support. So you must get that specific model. (e.g. Don't get the ESP32-S3-WROOM, or ESP32-S2-WROOM, or ESP32-C2, etc.)
+**Important:** There are many variants of the ESP32 microcontroller. The ESP32-WROOM is the only one that we support. So you must get that specific model. (e.g. Don't get the ESP32-S3-WROOM, or ESP32-S2-WROOM, or ESP32-C2, etc.)
 
 
 ### Recommended Purchase Links:
@@ -41,7 +41,7 @@ The USB port plugs into the computer which is how the program will control it. A
 | 3 (no pins) | $5.67 / unit | Micro-USB | CP2104 | https://www.amazon.com/gp/product/B09C5RDZ8G |
 | 8 (no pins) | $5 / unit | Micro-USB | CP2104 | https://www.amazon.com/gp/product/B08MFCC4SR |
 
-We recommend getting ones without pins since you don't need them (though they are more expensive). Having the pins is a liability for accidentially shorting out and damaging the board.
+We recommend getting ones without pins since you don't need them (though they are more expensive). Having the pins is a liability for accidentally shorting out and damaging the board.
 
 Most likely you will end up buying a pack of at least 2 or 3 since they don't get any cheaper in single quantity. This is great if you want to automate multiple Switches.
 
@@ -209,7 +209,7 @@ If in step 5, you are unable to connect to the Switch, (controller never shows u
 - Is it close enough to the Switch? (these are wireless devices after all)
 - Is the Switch in airplane mode?
 - Is it already paired with a different Switch?
-- There are reports of CFW ldm-mitm interferring with the ESP32. (This is a bug which we have yet to investigate.)
+- There are reports of CFW ldm-mitm interfering with the ESP32. (This is a bug which we have yet to investigate.)
 
 ### The Switch cannot transfer save files while paired with an ESP32.
 
