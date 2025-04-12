@@ -92,11 +92,19 @@ Make the following connections:
 
 **Step 2: Download QMK Toolbox**
 
+<<<<<<< HEAD
 A few QMK versions are known to work. e.g. 0.1.1, 0.2.2, 0.3.1, 0.3.3. Other versions may not work (e.g. 0.3.2 does not work).
 
 Download [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases). Ensure you download a version known to work. e.g. 0.3.3.
 
 You want the file `qmk_toolbox.exe`. You'll find it under `Assets`, under the version number that you choose (e.g. 0.3.3).
+=======
+A few QMK versions are known to work. e.g. 0.1.1, 0.2.2, and 0.3.1. Other versions may not work (e.g. 0.3.2 does not work).
+
+Download [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases). Ensure you download a version known to work. e.g. 0.3.1.
+
+You want the file `qmk_toolbox.exe`. You'll find it under `Assets`, under the version number that you choose (e.g. 0.3.1).
+>>>>>>> mac-instructions
 
 **Step 3: Flash PABotBase into your Device.**
 
@@ -137,6 +145,7 @@ At this point, your final setup should look like this:
 
 Continue to: [Wired Controller (AVR8) Software Setup](Controller-Software-AVR8.md).
 
+<<<<<<< HEAD
 ## Common errors with QMK toolbox
 | Error | Solution |
 | --- | --- |
@@ -252,6 +261,8 @@ avrdude.exe done.  Thank you.
 | cannot open port \\\\.\COM#: The system cannot find the file specified. | Make sure you typed in the correct COM port number. Also, make sure the Leonardo is plugged in and detectable by the Device Manager. If not, click the Leonardo's reset button |
 
 
+=======
+>>>>>>> mac-instructions
 
 <hr>
 

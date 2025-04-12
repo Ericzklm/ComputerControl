@@ -1,5 +1,10 @@
 # Controller Setup: ESP32-WROOM
 
+<<<<<<< HEAD
+=======
+***(This setup is currently in beta-testing. If you do not have access to the ESP32 firmware, you will not be able to do this setup.)***
+
+>>>>>>> mac-instructions
 This setup uses an ESP32 microcontroller to emulate a wireless controller. It can emulate both left and right joycons as well as the wireless pro controller. Since this covers all the controller types, an ESP32 will be able to run nearly our entire repertoire of programs for the Nintendo Switch.
 
 The USB port plugs into the computer which is how the program will control it. At the other end is an antenna that supports Bluetooth which is how it will fake itself as a joycon or a wireless pro controller to the Switch.
@@ -31,14 +36,18 @@ The USB port plugs into the computer which is how the program will control it. A
 **Capture Card:** [See previous section.](../README.md#video-capture-card-the-computers-eyes)
 
 **ESP32-WROOM-32 Microcontroller:**
+<<<<<<< HEAD
 
 For Beginners
 
+=======
+>>>>>>> mac-instructions
 | **Quantity** | **Price / Unit** | **USB Type** | **UART Type** | **Shopping Link** |
 | --- | --- | --- | --- | --- |
 | 1 (with pins) | $8 / unit | USB-C | CP2102  | https://www.amazon.com/gp/product/B0DG8JFY3C |
 | 2 (with pins) | $6.50 / unit | Micro-USB | CP2102  | https://www.amazon.com/gp/product/B09XDMVS9N |
 | 2 (no pins) | $9 / unit | USB-C | CH340  | https://www.amazon.com/gp/product/B0D6BH4K9B |
+<<<<<<< HEAD
 
 For Experienced users
 
@@ -52,6 +61,10 @@ For Experienced users
 If you pick a model that's not in this list, make sure it has a built-in antenna. The ESP32-WROOM-32U and ESP32-WROOM-32UE models do not have a built-in antenna and require you to attach one.
 
 If you're not experienced with electronics, we recommend buying one with both the Reset/EN and Boot/IO0 buttons, because it makes it easier to troubleshoot certain issues. All of the boards listed in the "For Beginners" section should have both the Reset and Boot buttons. The D1 mini boards (listed under "For Experienced users") are cheaper and smaller, but they only have a single Reset button, which can make it harder to troubleshoot certain issues.
+=======
+| 3 (no pins) | $5.67 / unit | Micro-USB | CP2104 | https://www.amazon.com/gp/product/B09C5RDZ8G |
+| 8 (no pins) | $5 / unit | Micro-USB | CP2104 | https://www.amazon.com/gp/product/B08MFCC4SR |
+>>>>>>> mac-instructions
 
 We recommend getting ones without pins since you don't need them (though they are more expensive). Having the pins is a liability for accidentally shorting out and damaging the board.
 
@@ -117,9 +130,15 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 
 <img src="../Images/ControllerSetup-ESP32-WROOM-Flash-1.png">
 
+<<<<<<< HEAD
 5. Click Start and it should flash the PABotBase firmware to your ESP32.
 
 If everything worked correctly, you should see a green progress bar like this. If you see that it gets stuck printing out `...` and never makes progress, see [troubleshooting](#unable-to-flash-the-esp32-stuck-on-).
+=======
+5. Click Start and it will flash the PABotBase firmware to your ESP32.
+
+If you see that it gets stuck printing out `...` and never makes progress, press and hold the `BOOT` button on the ESP32 and it should start flashing. You can release it when you see the green bar make progress.
+>>>>>>> mac-instructions
 
 <img src="../Images/ControllerSetup-ESP32-WROOM-Flash-2.png">
 
@@ -184,11 +203,19 @@ You will notice that there are 4 controller options:
 - Left Joycon
 - Right Joycon
 
+<<<<<<< HEAD
 "None" simply idles the ESP32 so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. So you will need to be in the Grip menu or it will stay disconnected. (important if you are accessing remotely!)
 
 Changing programs (or even closing the application entirely) will not disconnect the ESP32 from the Switch. When you load a program and connect to the ESP32, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly). So you can remotely control your Switch if you are careful enough.
 
 If you intend to do a lot of remote access, we recommend that you use a wired setup as a wired controller can connect to the Switch from anywhere and take control.
+=======
+"None" simply idles the ESP32 so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new type. So you will need to be in the Grip menu or it will stay disconnected. (important if you are accessing remotely!)
+
+Changing programs (or even closing the application entirely) will not disconnect the ESP32 from the Switch. When you load a program and connect to the ESP32, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly). So you can remotely control your Switch if you are careful enough.
+
+If you intend to do a lot of remote access, we recommend that you use to a wired setup as a wired controller can connect to the Switch from anywhere and take control.
+>>>>>>> mac-instructions
 
 **Connecting as Joycon:**
 
@@ -209,6 +236,7 @@ Continue on to [Finishing Up](../README.md#step-4-finishing-up)!
 
 ## Troubleshooting:
 
+<<<<<<< HEAD
 ### Unable to flash the ESP32. (stuck on `...`)
 
 If you see that it gets stuck printing out `...` and never makes progress, try one of these:
@@ -236,6 +264,8 @@ If nothing works, you are not alone! This is a common problem with ESP32 boards.
  - Come to [our Discord](https://discord.gg/cQ4gWxN) for help.
 
 
+=======
+>>>>>>> mac-instructions
 ### Unable to connect to the ESP32.
 
 If you are unable to connect to the ESP32 in step 4, it means the ESP32 either isn't booting up properly, or it isn't properly flashed. You may also try disconnecting and reconnecting the ESP32 device. If this still fails, review step 2 above and ensure that you flashed the firmware properly onto the device.
