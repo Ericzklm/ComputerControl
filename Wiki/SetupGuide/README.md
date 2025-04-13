@@ -125,7 +125,7 @@ Here the guide will diverge depending on which controller type you have chosen. 
 
 **Wireless Controller:**
  - [ESP32-WROOM](Controllers/Controller-ESP32-WROOM.md)
-   - [MacOS](Controllers/Controller-ESP32-WROOM-MacOS.md)
+   - [ESP32-WROOM for MacOS](Controllers/Controller-ESP32-WROOM-MacOS.md)
 
 **Wired Controller:**
  - [Arduino Uno R3](Controllers/Controller-ArduinoUnoR3.md)
